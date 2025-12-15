@@ -37,6 +37,14 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo .logo-img {
+    height: 40px;
+    width: auto;
 }
 
 .nav-menu {
@@ -93,6 +101,14 @@ body {
     color: #fff;
     text-align: center;
     margin-top: 60px;
+}
+
+.hero-logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.8));
 }
 
 .hero-content h1 {
@@ -220,6 +236,18 @@ body {
 
     .social-links {
         margin-top: 0.5rem;
+    }
+
+    .nav-logo a {
+        font-size: 1rem;
+    }
+
+    .nav-logo .logo-img {
+        height: 30px;
+    }
+
+    .hero-logo {
+        max-width: 200px;
     }
 
     .hero-content h1 {
