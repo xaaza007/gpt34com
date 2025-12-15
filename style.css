@@ -210,6 +210,87 @@ body {
     transform: translateY(-2px);
 }
 
+/* Recruitment Page */
+.recruitment-hero {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920') center/cover;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.contact-card h3 {
+    color: #4a9eff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-card p {
+    margin-bottom: 1rem;
+}
+
+.contact-card .btn {
+    margin-top: 1rem;
+}
+
+.recruiters-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recruiters-list li {
+    padding: 0.5rem 0;
+    color: #ccc;
+}
+
+.recruiter-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 !important;
+}
+
+.recruiter-portrait {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    border: 2px solid #4a9eff;
+}
+
+.help-text {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+}
+
+.steps-list {
+    margin-left: 1.5rem;
+    color: #ccc;
+}
+
+.steps-list li {
+    padding: 0.5rem 0;
+    line-height: 1.8;
+}
+
 /* Footer */
 .footer {
     background-color: #000;
